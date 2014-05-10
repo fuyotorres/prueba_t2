@@ -48,9 +48,9 @@ end
 
 ruby '2.0.0'
 
-#group :devlopment do
- #gem 'sqlite3', '~> 1.3.9'
-#end
+group :devlopment do
+ gem 'sqlite3', '~> 1.3.9'
+end
 
 group :production do
  gem 'pg', '0.17.1'
